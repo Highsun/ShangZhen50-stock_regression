@@ -4,7 +4,6 @@ import pandas as pd
 import akshare as ak
 import warnings
 
-# 忽略警告
 warnings.filterwarnings('ignore')
 
 # 定义指数名称和目标年份
@@ -20,8 +19,7 @@ data['日期'] = pd.to_datetime(data['日期'])
 # 筛选2024年的数据
 data_2024 = data[data['日期'].dt.year == int(target_year)]
 
-# 创建"DATA"文件夹（如果不存在）
-output_folder = 'DATA'
+output_folder = 'dataset'
 os.makedirs(output_folder, exist_ok=True)
 
 # 保存筛选后的数据到文件
@@ -45,7 +43,6 @@ china_fiscal_revenue_2024 = china_fiscal_revenue_data[
     china_fiscal_revenue_data['月份'].dt.year == 2024
 ]
 
-# 保存数据到DATA文件夹
 output_path = os.path.join(output_folder, "中国财政收入2024.csv")
 china_fiscal_revenue_2024.to_csv(output_path, index=False, encoding='utf-8-sig')
 
