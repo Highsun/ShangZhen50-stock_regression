@@ -23,8 +23,8 @@ print(data_df.info())
 
 ## visualization
 plt.figure(figsize=(12, 6))
-plt.plot(data_df['日期'], data_df['收盘_x'], label='USDCNH')
-plt.plot(data_df['日期'], data_df['收盘_y'], label='USDCNY')
+plt.plot(data_df['日期'], data_df['收盘_x'], label='USDCNH', color='#483C65')
+plt.plot(data_df['日期'], data_df['收盘_y'], label='USDCNY', color='#AF4F49')
 plt.title('美元对人民币汇率')
 plt.xlabel('日期')
 plt.ylabel('收盘价')
