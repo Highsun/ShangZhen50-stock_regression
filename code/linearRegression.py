@@ -31,14 +31,14 @@ model = LinearRegression()
 model.fit(x, y)
 
 ## visualization
-title = '线性回归：' + '美元价格' + '和' + data_df['股票名称'][0]
+title = '线性回归：' + data_df['股票名称'][0] + '和' + '美元价格'
 lr_equation = rf'$f(x) = {model.coef_[0][0]:.2f} x + {model.intercept_[0]:.2f}$'
 
 plt.scatter(x, y, color='blue')
 plt.plot(x, model.predict(x), color='red')
 plt.title(title)
-plt.xlabel('美元价格')
-plt.ylabel(data_df['股票名称'][0])
+plt.xlabel(data_df['股票名称'][0])
+plt.ylabel('美元价格')
 plt.text(x.min(), y.max(), lr_equation, fontsize=12, color='red', verticalalignment='top', usetex=True)
 # plt.show()
-plt.savefig(f'../output/lr/lr_美元价格_{data_df["股票名称"][0]}.png', dpi=300)
+plt.savefig(f'../output/lr/lr_{data_df["股票名称"][0]}_美元价格.png', dpi=300)
