@@ -5,13 +5,13 @@ import os
 if not os.path.exists('../output/display'):
     os.makedirs('../output/display')
 
-# plt config
+## plt config
 plt.rcParams['font.sans-serif'] = ['Kaiti SC']
 plt.rcParams['axes.unicode_minus'] = False
 
 ## Load the data
 df = pd.read_csv('../dataset/人民币汇率中间价_2024.csv', index_col='日期')
-## print(df.info())
+# print(df.info())
 
 ## Convert the exchange rates for indirect quotation currencies
 indirect_currencies = [
