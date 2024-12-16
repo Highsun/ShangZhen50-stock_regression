@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              布伦特原油当月连续   R-squared:                       0.047
+Model:                            OLS   Adj. R-squared:                  0.043
+Method:                 Least Squares   F-statistic:                     11.07
+Date:                Mon, 16 Dec 2024   Prob (F-statistic):            0.00103
+Time:                        11:26:44   Log-Likelihood:                -690.30
+No. Observations:                 226   AIC:                             1385.
+Df Residuals:                     224   BIC:                             1391.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         98.6667      5.623     17.548      0.000      87.586     109.747
+上证指数          -0.0061      0.002     -3.327      0.001      -0.010      -0.003
+==============================================================================
+Omnibus:                       15.599   Durbin-Watson:                   0.068
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.964
+Skew:                           0.010   Prob(JB):                       0.0507
+Kurtosis:                       2.204   Cond. No.                     4.99e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.99e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

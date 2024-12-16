@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  黄金/美元   R-squared:                       0.269
+Model:                            OLS   Adj. R-squared:                  0.266
+Method:                 Least Squares   F-statistic:                     82.45
+Date:                Mon, 16 Dec 2024   Prob (F-statistic):           5.79e-17
+Time:                        11:28:32   Log-Likelihood:                -1500.9
+No. Observations:                 226   AIC:                             3006.
+Df Residuals:                     224   BIC:                             3013.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        538.5569    203.087      2.652      0.009     138.351     938.762
+上证指数           0.6061      0.067      9.080      0.000       0.475       0.738
+==============================================================================
+Omnibus:                       17.209   Durbin-Watson:                   0.031
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.830
+Skew:                           0.135   Prob(JB):                       0.0329
+Kurtosis:                       2.192   Cond. No.                     4.99e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.99e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

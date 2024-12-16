@@ -71,8 +71,12 @@
 + 以上证指数收盘价为 $ y $ ，其余各列数据为 $ X $ ，进行多因素线性回归，并基于收盘价外的数据对收盘价进行预测。
 + 以上证指数收盘价为 $ y $ ，选取单因素线性回归效果较好的五只股票为 $ X $ ，进行多因素线性回归，并基于这五只股票的数据对收盘价进行预测。
 
+### v1.3.0 - 2024.12.16
+
++ 利用 OLS summary 工具对线性回归结果进行分析，所有股票类因素和上证指数的分析结果均予以保留，存储于 `main/output/OLS` 。
+
 ---
 
-Created and edited by **Highsun**, last update: **2024.12.11**
+Created and edited by **Highsun**, last update: **2024.12.16**
 
 Any questions please contact me by email: highsun910@gmail.com

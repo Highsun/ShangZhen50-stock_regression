@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  沪深300   R-squared:                       0.975
+Model:                            OLS   Adj. R-squared:                  0.975
+Method:                 Least Squares   F-statistic:                     8814.
+Date:                Mon, 16 Dec 2024   Prob (F-statistic):          1.95e-182
+Time:                        11:23:11   Log-Likelihood:                -1153.2
+No. Observations:                 227   AIC:                             2310.
+Df Residuals:                     225   BIC:                             2317.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       -440.8822     42.630    -10.342      0.000    -524.888    -356.876
+上证指数           1.3154      0.014     93.880      0.000       1.288       1.343
+==============================================================================
+Omnibus:                        2.793   Durbin-Watson:                   0.121
+Prob(Omnibus):                  0.248   Jarque-Bera (JB):                2.606
+Skew:                           0.262   Prob(JB):                        0.272
+Kurtosis:                       3.038   Cond. No.                     5.00e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large,  5e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

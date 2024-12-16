@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   美元指数   R-squared:                       0.319
+Model:                            OLS   Adj. R-squared:                  0.316
+Method:                 Least Squares   F-statistic:                     105.4
+Date:                Mon, 16 Dec 2024   Prob (F-statistic):           1.55e-20
+Time:                        11:23:57   Log-Likelihood:                -381.44
+No. Observations:                 227   AIC:                             766.9
+Df Residuals:                     225   BIC:                             773.7
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         89.4493      1.423     62.865      0.000      86.645      92.253
+上证指数           0.0048      0.000     10.269      0.000       0.004       0.006
+==============================================================================
+Omnibus:                       10.416   Durbin-Watson:                   0.113
+Prob(Omnibus):                  0.005   Jarque-Bera (JB):               10.597
+Skew:                          -0.518   Prob(JB):                      0.00500
+Kurtosis:                       3.214   Cond. No.                     5.00e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large,  5e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   上证指数   R-squared:                       0.985
+Model:                            OLS   Adj. R-squared:                  0.984
+Method:                 Least Squares   F-statistic:                     2759.
+Date:                Mon, 16 Dec 2024   Prob (F-statistic):          3.99e-192
+Time:                        11:41:57   Log-Likelihood:                -1001.1
+No. Observations:                 220   AIC:                             2014.
+Df Residuals:                     214   BIC:                             2035.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         97.7243    130.568      0.748      0.455    -159.640     355.088
+恒生指数          -0.0021      0.002     -0.918      0.359      -0.007       0.002
+沪深300          1.6217      0.120     13.472      0.000       1.384       1.859
+科创50          -0.1204      0.043     -2.811      0.005      -0.205      -0.036
+美元指数           3.3879      1.450      2.336      0.020       0.530       6.246
+中证A100        -0.8986      0.119     -7.579      0.000      -1.132      -0.665
+==============================================================================
+Omnibus:                       10.408   Durbin-Watson:                   0.189
+Prob(Omnibus):                  0.005   Jarque-Bera (JB):               22.640
+Skew:                           0.013   Prob(JB):                     1.21e-05
+Kurtosis:                       4.571   Cond. No.                     1.55e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.55e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.

@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  标普500   R-squared:                       0.300
+Model:                            OLS   Adj. R-squared:                  0.297
+Method:                 Least Squares   F-statistic:                     92.66
+Date:                Mon, 16 Dec 2024   Prob (F-statistic):           1.77e-18
+Time:                        11:26:36   Log-Likelihood:                -1548.5
+No. Observations:                 218   AIC:                             3101.
+Df Residuals:                     216   BIC:                             3108.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2232.8299    329.683      6.773      0.000    1583.022    2882.638
+上证指数           1.0433      0.108      9.626      0.000       0.830       1.257
+==============================================================================
+Omnibus:                       57.603   Durbin-Watson:                   0.037
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               10.758
+Skew:                          -0.002   Prob(JB):                      0.00461
+Kurtosis:                       1.912   Cond. No.                     5.01e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.01e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
